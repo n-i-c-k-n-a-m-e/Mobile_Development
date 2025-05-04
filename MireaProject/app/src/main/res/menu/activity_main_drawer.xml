@@ -17,8 +17,12 @@
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/menu_slideshow" />
         <item
-            android:id="@+id/nav_testik"
+            android:id="@+id/nav_chtototam"
             android:icon="@drawable/ic_menu_slideshow"
             android:title="@string/meny_test_fragment" />
+        <item
+            android:id="@+id/nav_internet"
+            android:icon="@drawable/side_nav_bar"
+            android:title="@string/internet" />
     </group>
 </menu>

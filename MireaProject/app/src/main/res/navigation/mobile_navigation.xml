@@ -27,4 +27,9 @@
         android:name="ru.mirea.shabanovrv.mireaproject.BlankFragment"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_blank" />
+    <fragment
+        android:id="@+id/nav_internet"
+        android:name="ru.mirea.shabanovrv.mireaproject.Internet"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_internet" />
 </navigation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:layout_width="390dp"
+        android:layout_height="420dp"
+        android:text="Данные методы позволяют взаимодействовать с пользовательским интерфейсом (обновлять элементы экрана, изменять видимость элементов и прочее) из другого потока, например, рабочего потока или обработчика сообщений.
+Метод runOnUiThread(Runnable action) предназначен для выполнения операций в главном потоке (UI thread) сразу же после вызова метода. Когда какой-то другой поток хочет изменить интерфейс, он вызывает этот метод, передавая объект Runnable, который представляет собой блок кода, предназначенный для исполнения в UI thread.
+Метод post(Runnable action) используется для отправки задачи на исполнение в очередь сообщений главного потока. Задача будет выполнена после того, как система завершит текущие задачи, находящиеся в очереди.
+Метод postDelayed(Runnable action, long delayMillis) похож на метод post, однако добавляет задержку перед исполнением задачи. Задержка задаётся в миллисекундах. Таким образом, задание ставится в очередь сообщений UI thread, но не сразу, а спустя указанное время.
+"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
