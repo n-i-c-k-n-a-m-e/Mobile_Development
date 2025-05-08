@@ -24,5 +24,9 @@
             android:id="@+id/nav_internet"
             android:icon="@drawable/side_nav_bar"
             android:title="@string/internet" />
+        <item
+            android:id="@+id/nav_vichislenya"
+            android:icon="@drawable/side_nav_bar"
+            android:title="@string/vichislenya" />
     </group>
 </menu>

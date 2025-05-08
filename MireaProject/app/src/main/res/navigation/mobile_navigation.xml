@@ -32,4 +32,9 @@
         android:name="ru.mirea.shabanovrv.mireaproject.Internet"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_internet" />
+    <fragment
+        android:id="@+id/nav_vichislenya"
+        android:name="ru.mirea.shabanovrv.mireaproject.Vichislenya2"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_vichislenya" />
 </navigation>
