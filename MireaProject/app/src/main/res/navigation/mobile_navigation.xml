@@ -37,4 +37,9 @@
         android:name="ru.mirea.shabanovrv.mireaproject.Vichislenya2"
         android:label="fragment_blank"
         tools:layout="@layout/fragment_vichislenya" />
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="ru.mirea.shabanovrv.mireaproject.profile"
+        android:label="fragment_blank"
+        tools:layout="@layout/fragment_profile" />
 </navigation>

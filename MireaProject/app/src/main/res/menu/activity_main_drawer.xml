@@ -28,5 +28,9 @@
             android:id="@+id/nav_vichislenya"
             android:icon="@drawable/side_nav_bar"
             android:title="@string/vichislenya" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/side_nav_bar"
+            android:title="@string/profile" />
     </group>
 </menu>
