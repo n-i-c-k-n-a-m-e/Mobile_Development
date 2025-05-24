@@ -46,7 +46,7 @@ public class firebaseauth extends AppCompatActivity {
         FirebaseUser currentUser = mAuth.getCurrentUser();
         updateUI(currentUser);
 
-        // Автопереход если пользователь уже авторизован
+
         if(currentUser != null && currentUser.isEmailVerified()) {
             startMainActivity();
         }
